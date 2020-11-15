@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<barcode>
+  <datamatrix>
+      <module-width>0.352777mm</module-width> <!-- 1 pixel at 72dpi -->
+      <quiet-zone enabled="true">1mw</quiet-zone>
+      <shape>force-none</shape>
+  </datamatrix>
+</barcode>
