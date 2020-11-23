@@ -54,7 +54,7 @@ public class LabelGenTest {
 
     public Response generateLabel(TopLevelProduct product) {
         return client
-                .target("http://localhost:9080/DmcRestApi_war_exploded/labelgen")
+                .target("http://localhost:8080/DmcRestApi_war_exploded/labelgen")
                 .request(MediaType.APPLICATION_JSON)
                 .accept(MediaType.APPLICATION_OCTET_STREAM)
                 .post(Entity.entity(product, MediaType.APPLICATION_JSON));
